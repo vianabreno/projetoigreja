@@ -78,6 +78,13 @@ main{
     max-width: 900px;
     margin: auto;
 }
+section > h2{
+    font-family: var(--font03);
+    color: #40251B;
+    font-size: 2em;
+    font-weight: normal;
+    
+}
 footer{
-    background-color: var(--cor04);
+    background-color: var(--cor06);
 }
