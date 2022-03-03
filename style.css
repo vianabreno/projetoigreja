@@ -79,6 +79,8 @@ main{
     min-width: 320px;
     max-width: 900px;
     margin: auto;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 section > h2{
     font-family: var(--font01);
@@ -117,4 +119,5 @@ footer{
 }
 .textoquadroaviso{
     margin-bottom: 40px;
+    padding-bottom: 15px;
 }
