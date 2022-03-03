@@ -17,5 +17,36 @@
     --font01: 'Patua One', 'cursive';
     --font02: 'K2D', sans-serif;
     --font03: 'Open Sans', sans-serif;
+}
+body{
+    background-color: var(--cor03);
+}
+header{
+    background-color: var(--cor04);
+}
+header > h1{
+    color: white;
+    font-family: var(--font01);
+    font-size: 3.5em;
+    font-weight: normal;
+    text-align: center;
 
+}
+header > h2{
+    color: white;
+}
+header > p{
+    color: white;
+}
+nav{
+    background-color: var(--cor01);
+}
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 900px;
+    margin: auto;
+}
+footer{
+    background-color: var(--cor04);
 }
