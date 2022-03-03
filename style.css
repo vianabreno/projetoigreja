@@ -110,14 +110,31 @@ section > p{
     margin-bottom: 15px;
     line-height: 30px;
 }
+section > div{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 img{
     margin-left: 15px;
 }
-
 footer{
+    font-family: var(--font03);
+    text-align: center;
     background-color: var(--cor06);
+    color: white;
+    margin-bottom: 10px;
+}
+footer > p > a{
+    text-decoration: none;
+    font-family: var(--font03);
+    color: white;
+    padding: 10px;
 }
 .textoquadroaviso{
     margin-bottom: 40px;
+    padding-bottom: 15px;
+}
+.titulopagina{
     padding-bottom: 15px;
 }
