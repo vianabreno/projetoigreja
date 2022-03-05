@@ -28,6 +28,13 @@ body{
 header{
     background-image: linear-gradient(to bottom, var(--cor06), var(--cor05));
 }
+header > div{
+    background-color: white;
+    width: 99px;
+    height: 162px;
+    display: inline-block;
+
+}
 header > h1{
     color: white;
     font-family: var(--font01);
