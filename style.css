@@ -128,6 +128,14 @@ section > div{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+section > ul{
+    list-style-position: inside;
+    color: var(--cor05);
+    font-family: var(--font02);
+    font-size: 1.2em;
+    padding-top: 15px;
+    margin-left: 15px;
+}
 aside{
     background-color: var(--cor02);
     min-width: 320px;
@@ -226,27 +234,18 @@ footer > p a:hover{
 .linkconteudo > a:hover{
     color: white;
 }
-.linkescola{
-    text-align: center;
-    font-family: var(--font03);
-    font-size: 1.3em;
+#linkescola{
+    font-family: var(--font02);
+    font-size: 1.1em;
     font-weight: normal;
-    background-color: var(--cor05);
-    min-width: 320px;
-    max-width: 550px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 2px solid rgba(0, 0, 0, 0.37);
 }
 .linkescola > a{
+    color: var(--cor06);
     text-decoration: none;
-    color: #F24B0F;
-    padding: 5px;
+    line-height: 40px;
 }
 .linkescola > a:hover{
-    color: white;
+    color: var(--cor01);
 }
 .titulovideo{
     font-size: 1.3em;
