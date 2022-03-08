@@ -256,7 +256,19 @@ footer > p a:hover{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
 }
 .linkvideo{
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 55.6%;
+    position: relative;
+}
+.linkvideo > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
 }
