@@ -71,6 +71,19 @@ nav{
     padding-bottom: 5px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
 }
+nav > a{
+    font-family: var(--font01);
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    margin-left: 23px;
+    padding: 25px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.438);
+}
+nav > a:hover{
+    color: var(--cor06);
+}
 main{
     background-color: white;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
