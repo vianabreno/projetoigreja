@@ -306,5 +306,25 @@ footer > p a:hover{
     color: white;
     display: none;
 }
+#botaovoltar{
+    background-color: var(--cor05);
+    margin-top: 0%;
+    padding: 0%;
+    width: 155px;
+    padding-left: 25px;
+    margin-top: 20px;
+}
+#botaovoltar > a{
+    font-family: var(--font01);
+    font-size: normal;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    width: 140px;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+
+}
 
 
