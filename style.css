@@ -324,7 +324,15 @@ footer > p a:hover{
     margin: 0%;
     padding: 0%;
     text-decoration: none;
-
 }
-
-
+.formadoacao{
+    display: inline-block;
+    width: 235px;
+    height: 175px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.formadoacao > img{
+    margin: 0%;
+}
