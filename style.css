@@ -372,3 +372,17 @@ footer > p a:hover{
     font-weight: normal;
     margin-top: 20px;
 }
+.textodonativos{
+    font-family: var(--font02);
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-top: 25px;
+    text-align: justify;
+}
+.subtitulodonativo{
+    font-family: var(--font02);
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding-top: 15px;
+    color: var(--cor05);
+}
