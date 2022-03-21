@@ -386,3 +386,24 @@ footer > p a:hover{
     padding-top: 15px;
     color: var(--cor05);
 }
+.bannercongregaçao{
+    padding: 5px;
+    padding-bottom: 0px;
+    min-width: 320px;
+    max-width: 810px;
+    margin: 0%;
+    margin-left: 40px;
+
+}
+.bannercongregaçao > img{
+    margin: 0%;
+}
+.nomecongregaçao{
+    margin: auto;
+    text-align: center;
+}
+.textocongregaçao{
+    font-family: var(--font02);
+    font-size: 1.1em;
+    margin-left: 74px;
+}
