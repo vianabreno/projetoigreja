@@ -401,9 +401,11 @@ footer > p a:hover{
 .nomecongregaçao{
     margin: auto;
     text-align: center;
+    padding-top: 15px;
 }
 .textocongregaçao{
     font-family: var(--font02);
     font-size: 1.1em;
-    margin-left: 74px;
+    text-align: center;
+    padding-bottom: 20px;
 }
