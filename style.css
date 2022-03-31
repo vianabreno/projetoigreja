@@ -257,6 +257,28 @@ footer > p a:hover{
 .linkconteudo > a:hover{
     color: white;
 }
+.linkvalorboleto{
+    text-align: center;
+    font-family: var(--font03);
+    font-size: 1.3em;
+    font-weight: normal;
+    background-color: var(--cor05);
+    min-width: 260px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    border-radius: 8px;
+    box-shadow: 2px solid rgba(0, 0, 0, 0.37);
+}
+.linkvalorboleto > a{
+    text-decoration: none;
+    color: #F24B0F;
+    padding: 5px;
+}
+.linkvalorboleto > a:hover{
+    color: white;
+}
 #linkescola{
     font-family: var(--font02);
     font-size: 1.1em;
@@ -369,6 +391,18 @@ footer > p a:hover{
 .formadoacao01{
     text-decoration: none;
     width: 200px;
+}
+.formadoacao02{
+    display: inline-block;
+    text-align: center;
+    width: 225px;
+    height: 225px;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0.5px solid rgba(128, 128, 128, 0.5);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.432);
 }
 #textobiblicocontribucao{
     font-family: var(--font02);
