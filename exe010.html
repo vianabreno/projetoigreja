@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body{
+            background-color: darkgrey;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.486);
+
+        }
+        input{
+            margin-top:  20px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            width: 100px;
+            height: 50px;
+            border: 2px solid rgba(0, 0, 0, 0.596);
+            border-radius: 8px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+        }
+        input.numeros{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            width: 130px;
+            height: 100px;
+        }
+        div{
+            border-radius: 8px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+            background-color: white;
+            text-align: center;
+            width: 350px;
+            margin: auto;
+            margin-top: 10px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+
+        }
+        #cal{
+            text-align: center;
+            width: 350;
+            margin: auto;
+        }
+        #res{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>CALCULADORA DE SOMAR</h1>
+        <div id="cal">
+            <input type="number" class="numeros" id="n01"> +
+            <input type="number" class="numeros" id="n02"> <br>
+            <input type="button" value="Somar" onclick="somar()">
+        </div>
+        <div>
+            <h2>Resultado</h2>
+            <p id="res">O resultado da soma dos numeros é:</p>
+        </div>
+    </main>
+</body>
+<script>
+    function somar(){
+        var n001 = window.document.getElementById('n01')
+        var n002 = window.document.getElementById('n02')
+        var res = window.document.getElementById('res')
+
+        var n1 = Number(n001.value)
+        var n2 = Number(n002.value)
+        var s = n1 + n2
+
+        res.innerHTML = `A soma de ${n1} e ${n2} é ${s}`
+    }
+</script>
+</html>
